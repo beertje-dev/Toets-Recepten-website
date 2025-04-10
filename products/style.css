@@ -1,0 +1,160 @@
+body {
+    background-color: #F7F2E7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navigatie balk */
+nav {
+    background-color: #4C4C4C;
+    color: #fff;
+    text-align: center;  /* Center the content */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 10px;
+    box-shadow: 0 0 30px 10px #4C4C4C;
+}
+
+nav ul {
+    display: flex;  /* Use flexbox for alignment */
+    justify-content: center;  /* Center the list items horizontally */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 60px; /* Increase spacing between items */
+    margin-right: 60px; /* Increase spacing between items */
+}
+
+nav li a {
+    padding: 10px 20px;
+    transition: background-color 0.5s, box-shadow 0.5s, color 0.5s;
+    border-radius: 20px;
+}
+
+nav li:hover a {
+    background-color: #E2C16D;
+    box-shadow: 0 0 30px 10px #E2C16D;
+    border-radius: 20px;
+    color: #333333;
+}
+
+a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Content box */
+.container {
+    padding: 20px;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2C2A6;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px #F2C2A6;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.content-box-nbg {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    padding: 20px;
+    width: 80%;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.image-box {
+    width: 40%;
+}
+
+.image-box img {
+    transform: scale(1.0);
+    width: 100%;
+    border-radius: 20px;
+    transition:  transform 0.4s, border-radius 0.4s; /* Voeg transition toe voor het a-element */  
+    /* pointer-events: none; */
+}
+.image-box img:hover {
+    transform: scale(1.15);
+    border-radius: 10px;
+}
+.text-box {
+    width: 55%;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+}
+.timer {
+    width: 22%;
+}
+
+.timer img {
+    width: 20%;
+    vertical-align: middle;
+}
+.timer p {
+    display: inline;
+    font-size: 22px;
+    /* center in hoogte */
+    vertical-align: middle;
+
+    margin-left: 5px;
+}
+
+.text-box ol {
+
+    padding-left: 0;
+
+}
+
+.text-box ol li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+.image-box ul {
+
+    padding-left: 0;
+
+}
+
+.image-box ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+
+footer {
+    background-color: #4C4C4C;
+    color: #fff;
+    text-align: center;  /* Center the content */
+    padding: 10px;
+    box-shadow: 0 0 30px 10px #4C4C4C;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}

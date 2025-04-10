@@ -1,0 +1,196 @@
+body{
+    background-color: #F7F2E7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+br {
+    padding: 50px;
+}
+/* navigatie balk */
+nav {
+    background-color: #4C4C4C;
+    color: #fff;
+    text-align: center;  /* Center the content */
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 10px;
+    box-shadow: 0 0 30px 10px #4C4C4C;
+}
+
+nav ul {
+    display: flex;  /* Use flexbox for alignment */
+    justify-content: center;  /* Center the list items horizontally */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-left: 60px; /* Increase spacing between items */
+    margin-right: 60px; /* Increase spacing between items */
+}
+
+nav li a {
+    padding: 10px 20px;
+    transition: background-color 0.5s, box-shadow 0.5s, color 0.5s;
+    border-radius: 20px;
+}
+
+nav li:hover a {
+    background-color: #E2C16D;
+    box-shadow: 0 0 30px 10px #E2C16D;
+    border-radius: 20px;
+    color: #333333;
+}
+a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/* navigatie balk einde */
+
+.text {
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.text-container {
+    /* gebruik lichtere kleuren welke er bij passen en zorg er voor dat het in het midden is */
+    background-color: #F2C2A6;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px #F2C2A6;
+    margin: 20px;
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #333333;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+
+
+/* Producten */
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+.item {
+    transform: scale(1);
+    background-color: #F2C2A6;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 10px #F2C2A6;
+    margin: 20px;
+    padding: 20px;
+    width: 75%;
+    transition: background-color 0.4s, box-shadow 0.4s, color 0.4s, transform 0.4s; /* Voeg transition toe voor het a-element */    
+}
+.item:hover {
+    transform: scale(1.1);
+    background-color: #E2C16D;
+    box-shadow: 0 0 30px 10px #E2C16D;
+    color: #333333;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 20px;
+}
+.timer {
+    background-color: #f8ca55;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #f8ca55;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+.timer img {
+    width: 10%;
+}
+.timer p {
+    display: inline;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #4C4C4C;
+    color: #fff;
+    text-align: center;  /* Center the content */
+    padding: 10px;
+    box-shadow: 0 0 30px 10px #4C4C4C;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    resize: vertical;
+}
+#success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
